@@ -155,7 +155,7 @@
 h1 {
     text-align: center;
     color: #555 !important;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 h1::after {
@@ -484,14 +484,14 @@ blockquote::after {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-
+    ma
 
 }
 
 .support {
     background-color: #efefef;
     padding: 30px;
-    margin: 40px;
+    margin: 40px 40px 40px 40px;
     text-align: justify;
     text-justify: inter-word;
     line-height: 33px;
