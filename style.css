@@ -484,8 +484,6 @@ blockquote::after {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    ma
-
 }
 
 .support {
@@ -497,4 +495,13 @@ blockquote::after {
     line-height: 33px;
     font-size: 20px;
     font-family: Lato;
+}
+
+.support ul li {
+    list-style-position: inside;
+}
+
+.support a {
+    text-decoration: underline!important;
+    color: #000!important;
 }
