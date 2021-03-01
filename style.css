@@ -252,9 +252,6 @@ ul {
 }
 
 .pricing-table-title {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 2.6em;
     color: #FFF;
     margin-top: 15px;
     text-align: left;
@@ -275,12 +272,12 @@ ul {
 }
 
 .pricing-wrapper {
-    width: 1260px;
+    width: 1320px;
     margin: 0px auto 0;
 }
 
 .pricing-table {
-    margin: 0 10px;
+    margin: 0 20px;
     text-align: center;
     width: 400px;
     float: left;
@@ -302,20 +299,22 @@ ul {
     color: #FFF;
     background: #2db3cb;
     padding: 20px 0;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 .pricing-table .price {
+    color: #555;
     background: #efefef;
-    font-size: 3.4em;
+    font-size: 2em;
     font-weight: 700;
     padding: 20px 0;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 .pricing-table .price sup {
+    color: #555;
     font-size: 0.4em;
     position: relative;
     left: 5px;
@@ -323,28 +322,12 @@ ul {
 
 .table-list {
     background: #FFF;
-    color: #403d3a;
+    color: #555;
 }
 
 .table-list li {
-    font-size: 1.4em;
     font-weight: 700;
     padding: 12px 8px;
-}
-
-.table-list li span {
-    font-weight: 400;
-}
-
-.table-list li span.unlimited {
-    color: #FFF;
-    background: #e95846;
-    font-size: 0.9em;
-    padding: 5px 7px;
-    display: inline-block;
-    -webkit-border-radius: 38px;
-    -moz-border-radius: 38px;
-    border-radius: 38px;
 }
 
 .table-list li:nth-child(2n) {
@@ -507,6 +490,16 @@ blockquote::after {
 .footer ul li {
     display: inline;
     padding-right: 100px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #FFF;
 }
 
 .terms {
