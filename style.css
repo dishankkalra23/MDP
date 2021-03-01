@@ -247,107 +247,138 @@ h1::after {
 
 /*---------Price Plans------*/
 
-#price {
-    padding: 40px 0;
-    background: #efefef;
+ul {
+    list-style-type: none;
 }
 
-.single-price {
-    margin: 10px auto;
-    display: inline;
-    float: left;
-    width: 100%;
-    background-color: #fff;
-    transition: 0.5s;
-}
-
-.single-price:hover {
-    box-shadow: 0 2px 20px #333;
-}
-
-.price-head {
-    background-color: #2196f3;
-    display: inline;
-    float: left;
-    padding: 10px 5px;
-    text-align: center;
-    width: 100%;
-}
-
-.price-head h2 {
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    padding: 5px;
+.pricing-table-title {
     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.6em;
+    color: #FFF;
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 25px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-.price-head p {
-    font-size: 25px;
-    color: #ccc;
-    font-weight: bold;
-    line-height: 30px;
+.pricing-table-title a {
+    font-size: 0.6em;
 }
 
-#price span {
-    font-size: 15px;
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    clear: both;
 }
 
-.price-content {
-    display: inline;
-    float: left;
-    width: 100%;
-    padding: 0 15px;
+.pricing-wrapper {
+    width: 1260px;
+    margin: 0px auto 0;
 }
 
-.price-content ul li {
-    border-bottom: 1px solid #efefef;
-    padding: 15px 10px;
-    list-style: none;
-}
-
-ul li:last-child {
-    border: none;
-}
-
-.fa-check-circle {
-    color: green;
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-.fa-times-circle {
-    color: red;
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-.price-button {
-    display: inline;
-    float: left;
-    padding: 15px 15px 30px;
+.pricing-table {
+    margin: 0 10px;
     text-align: center;
-    width: 100%;
+    width: 400px;
+    float: left;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
 }
 
-.buy-btn {
-    background-color: #2196f3;
-    border-radius: 3px;
+.pricing-table:hover {
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+.pricing-title {
+    color: #FFF;
+    background: #2db3cb;
+    padding: 20px 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pricing-table .price {
+    background: #efefef;
+    font-size: 3.4em;
+    font-weight: 700;
+    padding: 20px 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pricing-table .price sup {
+    font-size: 0.4em;
+    position: relative;
+    left: 5px;
+}
+
+.table-list {
+    background: #FFF;
+    color: #403d3a;
+}
+
+.table-list li {
+    font-size: 1.4em;
+    font-weight: 700;
+    padding: 12px 8px;
+}
+
+.table-list li span {
+    font-weight: 400;
+}
+
+.table-list li span.unlimited {
+    color: #FFF;
+    background: #e95846;
+    font-size: 0.9em;
+    padding: 5px 7px;
     display: inline-block;
-    font-size: 18px;
-    padding: 15px 50px;
-    transition: 0.5s;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    border-radius: 38px;
 }
 
-.buy-btn:hover {
-    border-color: 1px solid #fff;
-    background-color: #3f51b5;
+.table-list li:nth-child(2n) {
+    background: #F0F0F0;
 }
 
-a {
-    text-decoration: none!important;
-    color: #fff!important;
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .pricing-wrapper {
+        width: 768px;
+    }
+    .pricing-table {
+        width: 236px;
+    }
+    .table-list li {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pricing-wrapper {
+        width: 420px;
+    }
+    .pricing-table {
+        display: block;
+        float: none;
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .pricing-wrapper {
+        width: 300px;
+    }
 }
 
 /*----------Testimonials---------*/
