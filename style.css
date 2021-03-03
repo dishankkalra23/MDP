@@ -480,7 +480,6 @@ blockquote::after {
     color: #fff;
     padding: 12px;
     overflow: hidden;
-    text-align: center;
 }
 
 .footer ul {
@@ -489,7 +488,7 @@ blockquote::after {
 
 .footer ul li {
     display: inline;
-    padding-right: 100px;
+    padding: 0px 50px;
 }
 
 .footer a {
