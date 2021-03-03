@@ -522,6 +522,7 @@ blockquote::after {
 
 .support ul li {
     list-style-position: inside;
+    list-style-type: disc;
 }
 
 .support a {
